@@ -1,0 +1,87 @@
+{
+  "source": "https://raw.pixls.us/json/getrepository.php",
+  "retrieved": "2026-10-11",
+  "fixtures": [
+    {
+      "id": 2010,
+      "make": "Canon",
+      "model": "EOS D60",
+      "format": "RAW (3:2)",
+      "notes": "Taken with the Samyang 8mm f/3.5 CS II fisheye lens.",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://raw.pixls.us/getfile.php/2010/nice/Canon - EOS D60 - RAW (3:2).CRW",
+      "sha256": "2b98659ecff170af1dfe44f89b493139e75e995b2979686f6ff0847cfb56b97f",
+      "filename": "2010.CRW",
+      "coverage": [
+        "Bayer"
+      ]
+    },
+    {
+      "id": 3098,
+      "make": "Fujifilm",
+      "model": "X-E1",
+      "format": "12bit 12bit uncompressed (3:2)",
+      "notes": "",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://raw.pixls.us/getfile.php/3098/nice/Fujifilm - X-E1 - 12bit 12bit uncompressed (3:2).RAF",
+      "sha256": "0fa01fa1a674bcfa40f659225b4e66c5bedf15d2f78407ca1966dc8f38cd0e9f",
+      "filename": "3098.RAF",
+      "coverage": [
+        "X-Trans"
+      ]
+    },
+    {
+      "id": 824,
+      "make": "Nikon",
+      "model": "D200",
+      "format": "12bit 12bit uncompressed (3:2)",
+      "notes": "12-bit uncompressed",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://raw.pixls.us/getfile.php/824/nice/Nikon - D200 - 12bit 12bit uncompressed (3:2).nef",
+      "sha256": "d468895b0b30a60d05a7f6468d69f2f15830dd49b2d82698b34245072a22e747",
+      "filename": "824.nef",
+      "coverage": [
+        "Bayer"
+      ]
+    },
+    {
+      "id": 2414,
+      "make": "Sony",
+      "model": "ILCE-7M3",
+      "format": "14bit 14bit compressed (3:2)",
+      "notes": "",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://raw.pixls.us/getfile.php/2414/nice/Sony - ILCE-7M3 - 14bit 14bit compressed (3:2).ARW",
+      "sha256": "250784580ea527442c09004417bb0eead484f2bf3ee8f9121a776ac65bb50d0f",
+      "filename": "2414.ARW",
+      "coverage": [
+        "Bayer"
+      ]
+    },
+    {
+      "id": 3918,
+      "make": "Fujifilm",
+      "model": "X-T4",
+      "format": "14bit 14bit compressed (3:2)",
+      "notes": "",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://raw.pixls.us/getfile.php/3918/nice/Fujifilm - X-T4 - 14bit 14bit compressed (3:2).RAF",
+      "sha256": "871836938ffa695f4c41765ddb107c2703ce755f7f3ced7e10f9e04746f1734e",
+      "filename": "3918.RAF",
+      "coverage": [
+        "X-Trans"
+      ]
+    }
+  ],
+  "additional_coverage_needed": [
+    "measured ColorChecker reference",
+    "high ISO scene with reference",
+    "controlled highlight clipping",
+    "lens calibration target"
+  ]
+}

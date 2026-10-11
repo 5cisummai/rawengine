@@ -1,0 +1,163 @@
+{
+  "adjustments": {
+    "blacks": 0.0,
+    "calibration_hue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration_saturation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "clarity": 0.0,
+    "contrast": 8.0,
+    "curve": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 0.18000000715255737,
+        "y": 0.2199999988079071
+      },
+      {
+        "x": 0.5,
+        "y": 0.5799999833106995
+      },
+      {
+        "x": 1.0,
+        "y": 1.0
+      }
+    ],
+    "dehaze": 0.0,
+    "exposure": 0.0,
+    "grading": [
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      }
+    ],
+    "highlights": -15.0,
+    "hsl": [
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      },
+      {
+        "hue": 0.0,
+        "luminance": 0.0,
+        "saturation": 0.0
+      }
+    ],
+    "mono_mix": [
+      0.26269999146461487,
+      0.6779999732971191,
+      0.059300001710653305
+    ],
+    "monochrome": false,
+    "parametric": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturation": 0.0,
+    "shadows": 8.0,
+    "temperature_shift": 0.0,
+    "texture": 0.0,
+    "tint_shift": 0.0,
+    "vibrance": 10.0,
+    "whites": 0.0
+  },
+  "bad_pixels": [],
+  "camera_profile": "",
+  "detail": {
+    "chroma_noise": 15.0,
+    "defringe": 0.0,
+    "luminance_noise": 0.0,
+    "masking": 0.0,
+    "radius": 1.0,
+    "sharpen": 20.0,
+    "threshold": 0.0
+  },
+  "geometry": {
+    "chromatic_aberration": 0.0,
+    "crop_height": 1.0,
+    "crop_width": 1.0,
+    "crop_x": 0.0,
+    "crop_y": 0.0,
+    "distortion": 0.0,
+    "guides": [],
+    "horizontal": 0.0,
+    "lens_database": "",
+    "lens_name": "",
+    "lens_profile": false,
+    "rotation": 0.0,
+    "vertical": 0.0,
+    "vignette_correction": 0.0
+  },
+  "grain": 0.0,
+  "grain_seed": 1,
+  "grain_size": 1.0,
+  "highlight_recovery": true,
+  "local_edits": [],
+  "preset": "photographic",
+  "process": 1,
+  "retouch": [],
+  "version": 1,
+  "vignette": 0.0,
+  "white_balance": {
+    "mode": "as_shot",
+    "sample": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sample_radius": 0.009999999776482582,
+    "temperature": 6500.0,
+    "tint": 0.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "system": {
+    "libraw": "0.22.2",
+    "lcms2": "2.19",
+    "libpng": "1.6.59",
+    "libtiff-4": "4.7.2",
+    "libjpeg": "3.2.0",
+    "glib-2.0": "2.90.1"
+  },
+  "vendored": {
+    "nlohmann-json": {
+      "version": "3.12.0",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    "lensfun": {
+      "version": "0.3.4",
+      "archive_sha256": "dafb39c08ef24a0e2abd00d05d7341b1bf1f0c38bfcd5a4c69cf5f0ecb6db112"
+    }
+  },
+  "compiler": "AppleClang 21.0.0.21000334",
+  "language": "C++20",
+  "architecture": "arm64",
+  "note": "Strict development lock is the default; compatible distribution versions are used by CI."
+}

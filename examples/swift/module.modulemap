@@ -1,0 +1,5 @@
+module RawEngine {
+    header "../../include/rawengine/c_api.h"
+    link "rawengine"
+    export *
+}

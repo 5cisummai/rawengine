@@ -1,0 +1,20 @@
+name: C++ engine
+on: [push, pull_request]
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y cmake ninja-build pkg-config libraw-dev liblcms2-dev libpng-dev libtiff-dev libjpeg-turbo8-dev libglib2.0-dev
+      - run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DRAWENGINE_STRICT_DEPS=OFF -DRAWENGINE_SANITIZE=ON
+      - run: cmake --build build --parallel 4
+      - run: ctest --test-dir build --output-on-failure
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install cmake pkg-config libraw little-cms2 libpng libtiff jpeg-turbo glib
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DRAWENGINE_STRICT_DEPS=OFF
+      - run: cmake --build build --parallel 4
+      - run: ctest --test-dir build --output-on-failure
+      - run: swiftc -I examples/swift -L build -lrawengine -Xlinker -rpath -Xlinker "$PWD/build" examples/swift/main.swift -o build/swift-example

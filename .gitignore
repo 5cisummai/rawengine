@@ -1,0 +1,10 @@
+/build*/
+/out/
+.DS_Store
+*.dng
+*.CR3
+*.NEF
+*.ARW
+*.RAF
+__pycache__/
+*.pyc
